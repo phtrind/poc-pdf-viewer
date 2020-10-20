@@ -1,0 +1,29 @@
+.document-container {
+  width: 495px;
+  /* height: 785px; */
+  background-color: #464646;
+  padding: 24px;
+}
+
+.document-page {
+  height: 644px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.document-page-control-container {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.document-page-control-button {
+  cursor: pointer;
+}
